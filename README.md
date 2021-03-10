@@ -32,6 +32,7 @@
 7. Use template literals.
 8. Use destructuring assignment for arrays and objects.
 9. Use Promises or Asyns/Await. Rejection is handled.
+
 ##React code review
 1. Keep code DRY (Don't repeat yourself)
 2. Components have defined propTypes
@@ -54,13 +55,16 @@
 19. Removed unused packages from NPM
 20. Store mock data for unit tests, avoid cluttering of mock code
 21. Create mock data using loops, for easy maintainability 
+
 ##Third-Party Libraries
 1. Use lodash/ramda functions instead of implementing itself.
 2. Is Immutable.js was used correctly?
 3. Is any nice/useful library was used wich we didn't know before?
+
 ##ESLint
 1. Code has no any linter errors or warnings.
 2. No console.logs.
+
 ##CSS/CSS in JS
 1. Consistent naming conventions are used (BEM, OOCSS, SMACSS, e.t.c.).
 2. CSS selectors are only as specific as they need to be; grouped logically.
@@ -72,6 +76,7 @@
 8. Do not animate width, height, top, left and others. Use transform instead.
 9. Use same units for all project.
 10. Avoid inline styles.
+
 ##Testing
 1. Tests are readable, maintainable, trustworthy.
 2. Test names (describe, it) are concise, explicit, descriptive.
@@ -80,6 +85,7 @@
 5. Cover the general case and the edge cases.
 6. Test the behaviour, not the internal implementation.
 7. Use a mock to simulate/stub complex class structure, methods or async functions.
+
 ##Git
 1. Commits are small and divided into logical parts.
 2. Commits messages are small and understandable.
