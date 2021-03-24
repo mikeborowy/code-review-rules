@@ -1,4 +1,4 @@
-REACT STATEFUL COMPONENT
+//REACT STATEFUL COMPONENT
 
 /** We import at first libraries, then
 * components, imports should be sorted alphabetically
